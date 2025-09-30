@@ -1,0 +1,4 @@
+Flask==2.3.3
+stellar-sdk==8.2.0
+gunicorn==21.2.0
+requests==2.31.0

@@ -1,0 +1,39 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.7.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/healthstash/healthstash/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--save"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-15T22_52_16_397Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-15T22_52_16_397Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:768606208 maxSize:192151552 maxEntrySize:96075776
+13 silly idealTree buildDeps
+14 silly fetch manifest typescript@^3.2.1 || ^4
+15 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+16 http cache https://registry.npmjs.org/typescript 18145ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/typescript set size:14666496 disposed:false
+18 silly placeDep ROOT typescript@4.9.5 REPLACE for: react-scripts@5.0.1 want: ^3.2.1 || ^4
+19 silly reify mark retired [
+19 silly reify   '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/typescript',
+19 silly reify   '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.bin/tsc',
+19 silly reify   '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.bin/tsserver'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/typescript': '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.typescript-i919x6BE',
+20 silly reify   '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.bin/tsc': '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.bin/.tsc-bf2O2HJP',
+20 silly reify   '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.bin/tsserver': '/data/data/com.termux/files/home/healthstash/healthstash/node_modules/.bin/.tsserver-efMrxizJ'
+20 silly reify }
+21 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 0ms (cache hit)
+22 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz. Extracting by manifest.
+23 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 2970ms (cache miss)
+24 silly CHANGE node_modules/typescript
+25 verbose cwd /data/data/com.termux/files/home/healthstash/healthstash
+26 verbose os Linux 4.14.199-23891387-abA035FXXU1AVG8
+27 verbose node v24.7.0
+28 verbose npm  v11.5.1
+29 verbose exit 0
+30 info ok
